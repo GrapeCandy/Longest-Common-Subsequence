@@ -11,6 +11,7 @@ LCS's Algorithm and Theory
 - 부분집합이 되는 수열들 중에 가장 긴 것을 찾는 알고리즘
 
 <img src="https://i0.wp.com/algorithms.tutorialhorizon.com/files/2015/06/Longest-Common-Subsequence-example.jpg"></img>
+
 [출처] https://algorithms.tutorialhorizon.com/dynamic-programming-longest-common-subsequence/
 
 
