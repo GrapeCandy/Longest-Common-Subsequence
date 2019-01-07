@@ -55,6 +55,9 @@ LCS's Algorithm and Theory
 
 <img src="https://i2.wp.com/www.techiedelight.com/wp-content/uploads/LCS-Backtrack-Wiki.png?zoom=2.625&resize=230%2C278&ssl=1"></img>
 
+[출처] https://www.techiedelight.com/longest-common-subsequence-finding-lcs/
+
+
    print_LCS()
    
     stack<int>;
