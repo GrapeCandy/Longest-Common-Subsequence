@@ -21,11 +21,11 @@ LCS's Algorithm and Theory
   
     make 2D array 'c'
     
-    for i <- 0 to n       
+    for i <- 0 to n         (n : first array's length)      
     {
       c[i][0] = 0;
     }
-    for j <- 0 to m
+    for j <- 0 to m         (m : second array's length)
     {
       c[0][j] = 0;
     }
