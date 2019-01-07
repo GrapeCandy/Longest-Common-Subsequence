@@ -64,8 +64,8 @@ LCS's Algorithm and Theory
 
     while reach to 0 in the array
     {
-      If current value of c is equal to previous column's value, count down i       (i : pointer that 2D array's column, initialized to                                                                                     end )
-      else if current value of c is equal to previous row's value, count down j     (j : pointer that 2D array's row, initialized to                                                                                          end)
+      If current value of c is equal to previous column's value, count down i       (i : pointer that 2D array's column, initialized to end )
+      else if current value of c is equal to previous row's value, count down j     (j : pointer that 2D array's row, initialized to     end)
       else if (current value of c) - 1 is equal to value of c on left diagonal
       {
         Put j index to stack
