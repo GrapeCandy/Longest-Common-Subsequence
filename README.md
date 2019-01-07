@@ -15,7 +15,7 @@ LCS's Algorithm and Theory
 [출처] https://algorithms.tutorialhorizon.com/dynamic-programming-longest-common-subsequence/
 
 
-## LCS(length of LCS) pseudocode
+## LCS(length of LCS) pseudocode : just find LCS's length
 
   LCS_LENGTH(arr1[], arr2[])
   
@@ -46,12 +46,32 @@ LCS's Algorithm and Theory
       }
     }
     return c array's last value
+    
+    
+    
+## LCS(print LCS) pseudocode : find string of LCS
 
+[예시 : trace back]
 
+<img src="https://i2.wp.com/www.techiedelight.com/wp-content/uploads/LCS-Backtrack-Wiki.png?zoom=2.625&resize=230%2C278&ssl=1"></img>
 
+   print_LCS()
+   
+    stack<int>;
 
+    while reach to 0 in the array
+    {
+      If current value of c is equal to previous column's value, count down i       (i : pointer that 2D array's column, initialized to                                                                                     end )
+      else if current value of c is equal to previous row's value, count down j     (j : pointer that 2D array's row, initialized to                                                                                          end)
+      else if (current value of c) - 1 is equal to value of c on left diagonal
+      {
+        Put j index to stack
+      }
+    }
 
-
-
-
- 
+    While stack is not empty
+    {
+      Print common charactor
+      Remove index from stack
+    }
+    
